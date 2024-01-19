@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica pet</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+        .footer{
+            text-align: center;
+        }
+
+        .content{
+            text-align: center;
+        }
+        table{
+            box-shadow: -15px 16px 12px 0px rgba(64,0,168,0.75);
+            -webkit-box-shadow: -15px 16px 12px 0px rgba(64,0,168,0.75);
+            -moz-box-shadow: -15px 16px 12px 0px rgba(64,0,168,0.75);
+            background-color: white;
+            border-color:   #696969;
+        }
+        table thead tr:nth-child(odd){
+            border: 0;
+            background-color: blueviolet;
+        }
+
+        table tbody tr:nth-child(odd){
+            background-color: rgba(142, 196, 231, 0.959);
+        }
+        table tbody tr:hover td{
+            background-color: #8d8ba3;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h2 style="text-align: center;">Menu de navegação</h2>
+            <ul>
+                <li><a href="sobre.html" target="_self">Sobre a clínica</a></li>
+                <li><a href="index.html" target="_self">Voltar à página principal</a></li>
+                <li><a href="contatos.html" target="_self">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="WhatsApp Image 2024-01-13 at 10.24.03.jpeg" height="150" width="1000"/>
+            </div>
+    
+            <div class="content">
+                <h1 style="color: blue;">Horário de atendimento</h1>
+                <p>Nossos horários de atendimento:</p>
+                <div>
+                    <table align="center" width="500" border="1" cellpadding="5" cellspacing="5" summary="Tabela com os horários de atendimento disponíveis na clínica pet">
+                        <caption>Tabela de horário de atendimento</caption>
+                        <thead>
+                            <tr>
+                                <th ></th>
+                                <th colspan="3">Horários disponíveis</th>
+                            </tr>
+                            <tr>
+                                <th title="Serviços disponíveis da Clínica Pet">Serviços</th>
+                                <th>Segunda a sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vacinação</td>
+                                <td>8h - 18h</td>
+                                <td>10h - 17h</td>
+                                <td>10h - 15h</td>
+                            </tr>
+                            <tr>
+                                <td>Castração</td>
+                                <td>8h - 18h</td>
+                                <td>8h - 16h</td>
+                                <td> --- </td>
+                            </tr>
+                            <tr>
+                                <td>Exame de sangue</td>
+                                <td>8h - 18h</td>
+                                <td>10h - 16h</td>
+                                <td> --- </td>
+                            </tr>
+                            <tr>
+                                <td>Ultrassom e raio-x</td>
+                                <td>8h - 18h</td>
+                                <td>8h - 16h</td>
+                                <td> --- </td>
+                            </tr>
+                            <tr>
+                                <td>Cirurgia</td>
+                                <td>8h - 21h</td>
+                                <td>8h - 19h</td>
+                                <td>10h - 17h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <h3 style="font-family: Arial, Helvetica, sans-serif;">Contatos</h3>    
+                <p><b>Telefone</b>:<u> (17) 3353-2798</u></p>
+                <p><b>Instagram</b>: @Clínica_Pet</p>
+                <p><b>E-mail</b>: clinicapet@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

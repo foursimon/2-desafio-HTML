@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}   
+.menu {
+    width: 15%;
+    background-color: #00ffff;
+    background-image: url(20240116_150759_0000.png);
+    background-position-x: 50px;
+    background-position-y: 0px;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(8, 84, 146);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #6338f0;
+    height: 150px;     
+    background-image: url(20240116_151322_0000.png);
+    background-position: -100px;
+}
